@@ -43,9 +43,9 @@ button {
 }
 
 body {
-  background: url('/img/decor-border-bg.webp') left bottom / cover no-repeat,
-    url('/img/rocket.webp') left bottom 18px / 33% auto no-repeat, url('/img/bg.webp') right center / cover no-repeat;
-  border-image-source: url('/img/border-bg.webp');
+  background: url('./img/decor-border-bg.webp') left bottom / cover no-repeat,
+    url('./img/rocket.webp') left bottom 18px / 33% auto no-repeat, url('./img/bg.webp') right center / cover no-repeat;
+  border-image-source: url('./img/border-bg.webp');
   border-image-slice: 36;
   border-style: solid;
   border-width: calc(17px + (36 - 17) * ((100vw - 360px) / (1440 - 360)));
@@ -169,9 +169,9 @@ body {
 
 @media screen and (max-width: 998px) {
   body {
-    background: url('/img/rocket.webp') left 65% / 56% auto no-repeat,
-      url('/img/bg-small.webp') top center / cover no-repeat;
-    border-image-source: url('/img/decor-border-bg-small.svg');
+    background: url('./img/rocket.webp') left 65% / 56% auto no-repeat,
+      url('./img/bg-small.webp') top center / cover no-repeat;
+    border-image-source: url('./img/decor-border-bg-small.svg');
   }
   .content {
     flex-direction: column-reverse;
