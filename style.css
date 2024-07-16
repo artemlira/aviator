@@ -50,6 +50,7 @@ body {
   border-style: solid;
   border-width: calc(17px + (36 - 17) * ((100vw - 360px) / (1440 - 360)));
   min-height: 829px;
+  height: 100vh;
 }
 
 .header {
