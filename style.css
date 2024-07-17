@@ -147,7 +147,7 @@ body {
   text-transform: uppercase;
   text-align: center;
   color: #fff;
-  text-shadow: -5px 7px 0px #000, 3px 4px 0px #dfdfdf, 1px 1px 0px #fff;
+  text-shadow: -5px 7px 0px #000;
   transform: rotate(-4deg);
   max-width: calc(330px + (645 - 330) * ((100vw - 360px) / (1440 - 360)));
   margin-inline: auto;
@@ -167,7 +167,6 @@ body {
   text-align: center;
   color: #fff;
   text-shadow: -7px 9px 0 #000;
-  margin-top: 25px;
 }
 
 .price_text {
@@ -178,7 +177,7 @@ body {
   text-align: center;
   color: #fff;
   text-shadow: -7px 9px 0 0 #000;
-  margin-top: calc(10px + (25 - 10) * ((100vw - 360px) / (1440 - 360)));
+  margin-top: 5px;
 }
 
 .btn_wrapper {
