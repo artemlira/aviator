@@ -156,7 +156,6 @@ body {
 .price {
   flex: 1 1 32%;
   align-items: start;
-  /* padding-left: calc(0px + (60 - 0) * ((100vw - 360px) / (1440 - 360))); */
   padding-left: 38px;
 }
 
@@ -220,7 +219,6 @@ body {
 
 @media screen and (max-width: 998px) {
   body {
-    /* url('./img/aviator.webp') left 90% / 56% auto no-repeat, */
     background: url('./img/bg-small.webp') 0% 28% / cover no-repeat;
     border-image-source: url('./img/decor-border-bg-small.svg');
     min-height: 100vh;
@@ -275,17 +273,24 @@ body {
 
 @media screen and (max-width: 440px) {
   body {
-    /* url('./img/aviator.webp') left 77% / 56% auto no-repeat, */
     background: url('./img/bg-small.webp') center top / auto 100% no-repeat;
     border-image-source: url('./img/decor-border-bg-small.svg');
-    /* min-height: 640px; */
+  }
+
+  .title {
+    /* margin-bottom: 15px; */
+  }
+
+  .text {
+    margin-bottom: 25px;
   }
 
   .subtitle {
     text-shadow: -2.626px 3.677px 0px #000;
   }
   .price {
-    margin-bottom: 73px;
+    /* margin-bottom: 73px; */
+    margin-bottom: 35px;
   }
 
   .price_text {
